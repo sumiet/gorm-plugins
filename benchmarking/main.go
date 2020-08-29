@@ -12,7 +12,7 @@ func main() {
 
 	ORM_MAX_IDLE = 200
 	ORM_MAX_CONN = 200
-	ORM_SOURCE = "uber:uber@/orm_bench?charset=utf8"
+	ORM_SOURCE = "test:test@/orm_bench?charset=utf8"
 	ORM_MULTI = 50
 
 	registerGORM()
